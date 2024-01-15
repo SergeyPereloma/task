@@ -1,7 +1,12 @@
 import sys
+import time
 
 def main():
-    print("This is standard output (stdout).")
+    print("Starting the count...")
+
+    for i in range(1, 11):
+        print(f"Count: {i}")
+        time.sleep(3)
 
     try:
         result = 10 / 0
