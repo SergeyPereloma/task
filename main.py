@@ -7,7 +7,7 @@ def main():
 
     for i in range(1, 11):
         print(f"Count: {i}")
-        time.sleep(3)
+        time.sleep(5)
 
     try:
         result = 10 / 0
