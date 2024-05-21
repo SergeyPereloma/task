@@ -9,5 +9,7 @@ def main():
             print(f"Count: {i}", file=sys.stderr)
         else:
             print(f"Count: {i}")
+        time.sleep(0.1)
+
 if __name__ == "__main__":
     main()
